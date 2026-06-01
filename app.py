@@ -31,27 +31,32 @@ def display_pdf(file_path):
 
 # Database Materi
 materi = {
-    "Bab 1": {"judul": "Pendahuluan: Pengantar MIS", "file": "bab 1.pdf", "ringkasan": "Definisi MIS, komponen sistem, dan konsep data/informasi."},
-    "Bab 2": {"judul": "Peran Strategis SI", "file": "bab 2.pdf", "ringkasan": "Model Porter’s Competitive Forces dan Value Chain."},
-    "Bab 3": {"judul": "Identifikasi Jenis Sistem", "file": "bab 3.pdf", "ringkasan": "Komponen sistem dan klasifikasi piramida manajemen."},
-    "Bab 4": {"judul": "Sistem Manajemen Menengah & Atas", "file": "bab 4.pdf", "ringkasan": "Dukungan keputusan melalui MIS, DSS, dan ESS."},
-    "Bab 5": {"judul": "Infrastruktur TI", "file": "bab 5.pdf", "ringkasan": "Hardware, Software, Cloud Computing, dan isu TCO."},
-    "Bab 6": {"judul": "Manajemen Data & Pengetahuan", "file": "bab 6.pdf", "ringkasan": "DBMS, Data Warehouse, Data Mining, dan Business Intelligence."},
-    "Bab 7": {"judul": "Proses Pengembangan Sistem", "file": "bab 7.pdf", "ringkasan": "Siklus hidup SDLC serta metodologi Waterfall dan Agile."},
-    "Bab 8": {"judul": "Solusi SI Terintegrasi", "file": "bab 8.pdf", "ringkasan": "Implementasi sistem ERP, CRM, SCM, dan Logistik."},
-    "Bab 9": {"judul": "Alat Bantu Pemodelan", "file": "bab 9.pdf", "ringkasan": "Teknik visualisasi menggunakan Use Case, Flowchart, dan DFD."},
-    "Bab 10": {"judul": "Telekomunikasi & Jaringan", "file": "bab 10.pdf", "ringkasan": "Infrastruktur jaringan, internet, dan model bisnis E-Commerce."},
-    "Bab 11": {"judul": "Keamanan & Kontrol Informasi", "file": "bab 11.pdf", "ringkasan": "Manajemen risiko, prinsip CIA Triad, dan kontrol teknis."},
-    "Bab 12": {"judul": "Etika & Implikasi Sosial", "file": "bab 12.pdf", "ringkasan": "Dimensi moral era informasi, privasi data, dan dampak sosial."},
-    "Bab 13": {"judul": "Tren Teknologi Masa Depan", "file": "bab 13.pdf", "ringkasan": "Eksplorasi IoT, Big Data, dan Artificial Intelligence."},
-    "Bab 14": {"judul": "Presentasi Proyek Akhir", "file": "bab 14.pdf", "ringkasan": "Panduan penyusunan dan teknik presentasi proyek akhir."},
+    "Bab 1": {"judul": "Pendahuluan", "file": "bab 1_Pendahuluan.pdf", "ringkasan": "Definisi MIS, komponen sistem, dan konsep data/informasi."},
+    "Bab 2": {"judul": "Analisis Peran Strategi Sistem Informasi Dalam Organisasi", "file": "bab 2_Analisis Peran Strategi Sistem Informasi Dalam Organisasi.pdf", "ringkasan": "Model Porter’s Competitive Forces dan Value Chain."},
+    "Bab 3": {"judul": "Identifikasi Jenis-jenis Sistem Dalam Organisasi", "file": "bab 3_Identifikasi Jenis-jenis Sistem Dalam Organisasi.pdf", "ringkasan": "Komponen sistem dan klasifikasi piramida manajemen."},
+    "Bab 4": {"judul": "Identifikasi Sistem Untuk Manajemen Tingkat Menengah dan Atas", "file": "bab 4_Identifikasi Sistem Untuk Manajemen Tingkat Menengah dan Atas.pdf", "ringkasan": "Dukungan keputusan melalui MIS, DSS, dan ESS."},
+    "Bab 5": {"judul": "Infrastruktur Teknologi Informasi (Hardware dan Software)", "file": "bab 5_Infrastruktur Teknologi Informasi (Hardware dan Software).pdf", "ringkasan": "Hardware, Software, Cloud Computing, dan isu TCO."},
+    "Bab 6": {"judul": "Dasar-dasar Manajemen Data dan Pengetahuan", "file": "bab 6_Dasar-dasar Manajemen Data dan Pengetahuan.pdf", "ringkasan": "DBMS, Data Warehouse, Data Mining, dan Business Intelligence."},
+    "Bab 7": {"judul": "Proses Pengembangan Sistem", "file": "bab 7_Proses Pengembangan Sistem.pdf", "ringkasan": "Siklus hidup SDLC serta metodologi Waterfall dan Agile."},
+    "Bab 8": {"judul": "Solusi Sistem Informasi Terintegrasi Perusahaan", "file": "bab 8_Solusi Sistem Informasi Terintegrasi Perusahaan.pdf", "ringkasan": "Implementasi sistem ERP, CRM, SCM, dan Logistik."},
+    "Bab 9": {"judul": "Alat Bantu Untuk Pemodelan Sistem", "file": "bab 9_Alat Bantu Untuk Pemodelan Sistem.pdf", "ringkasan": "Teknik visualisasi menggunakan Use Case, Flowchart, dan DFD."},
+    "Bab 10": {"judul": "Telekomunikasi dan Jaringan Dalam Bisnis", "file": "bab 10_Telekomunikasi dan Jaringan Dalam Bisnis.pdf", "ringkasan": "Infrastruktur jaringan, internet, dan model bisnis E-Commerce."},
+    "Bab 11": {"judul": "Isu Keamanan dan Kontrol Informasi", "file": "bab 11_Isu Keamanan dan Kontrol Informasi.pdf", "ringkasan": "Manajemen risiko, prinsip CIA Triad, dan kontrol teknis."},
+    "Bab 12": {"judul": "Implikasi Etika dan Sosial Teknologi Informasi", "file": "bab 12_Implikasi Etika dan Sosial Teknologi Informasi.pdf", "ringkasan": "Dimensi moral era informasi, privasi data, dan dampak sosial."},
+    "Bab 13": {"judul": "Tren Teknologi Masa Depan", "file": "bab 13_Tren Teknologi Masa Depan.pdf", "ringkasan": "Eksplorasi IoT, Big Data, dan Artificial Intelligence."},
+    "Bab 14": {"judul": "Tugas dan Presentasi Proyek Akhir Kelompok", "file": "bab 14_Tugas dan Presentasi Proyek Akhir Kelompok.pdf", "ringkasan": "Panduan penyusunan dan teknik presentasi proyek akhir."},
     "Tugas Proyek": {"judul": "Contoh Laporan Proyek Akhir", "file": "Tugas Proyek SIM.pdf", "ringkasan": "Referensi laporan pengembangan SIM (Studi Kasus: Laundry)."},
     "Info UTS-UAS": {"judul": "Panduan Ujian & Tugas", "file": "UTS-UAS.pdf", "ringkasan": "Ketentuan soal UTS, UAS, dan proyek kelompok."}
 }
 
 # --- SIDEBAR NAVIGATION ---
+st.sidebar.image("cover_sim.png", use_container_width=True)
 st.sidebar.title("Navigasi")
-selection = st.sidebar.radio("Pilih Halaman:", ["Home"] + list(materi.keys()))
+selection = st.sidebar.radio(
+    "Pilih Halaman:",
+    ["Home"] + list(materi.keys()),
+    format_func=lambda x: x if x == "Home" else f"{x}: {' '.join(materi[x]['judul'].split()[:3])}{'...' if len(materi[x]['judul'].split()) > 3 else ''}"
+)
 
 # --- RENDER DASHBOARD ---
 
@@ -67,7 +72,7 @@ Gunakan menu di samping kiri untuk mengeksplorasi modul pembelajaran, tugas proy
 Buku ini disusun dengan bahasa yang sederhana dan mudah dipahami. Kami berharap buku ini dapat membantu mahasiswa memahami Management Information System (Sistem Informasi Manajemen) dengan lebih baik dan dapat mengaplikasikannya dalam praktik manajemen.
 Sistematika buku ajar ini, tiap bab dimulai dengan Pokok Bahasan dan Tujuan Pembelajaran, sub bab dan penjelasannya dan Rangkuman, Pertanyaan dan Diskusi serta Daftar Pustaka tiap Bab untuk memperluas bacaan. Tiap bab sesuai pertemuan kuliah (mingguan), minggu ke-8 dilaksanakan Ujian Tengah Semester (UTS) dan minggu ke-16 Ujian Akhir Semester (UAS), dalam bentuk tugas implementasi SIM pada proyek  Mengembangkan Sistem Informasi Manajemen Layanan Usaha Bisnis Sederhana.
 
-Sistematika Bab adalah Bab 1 Pendahuluan; Bab 2  Analisis Peran Strategis Sistem Informasi Dalam Organisasi; Bab 3 Identifikasi Jenis-Jenis Sistem Dalam Organisasi; Bab 4 Identifikasi Sistem Untuk Manajemen Tingkat Menengah Dan Atas; Bab 5 Infrastruktur Teknologi Informasi (Hardware & Software); Bab 6 Dasar-Dasar Manajemen Data Dan Pengetahuan; Bab 7 Proses Pengembangan Sistem; Bab 8  Solusi Sistem Informasi Terintegrasi Perusahaan; Bab 9 Alat Bantu Untuk Pemodelan Sistem; Bab 10  Telekomunikasi Dan Jaringan Dalam Bisnis; Bab 11  Isu Keamanan Dan Kontrol Informasi; Bab 12 Implikasi Etika Dan Sosial Teknologi Informasi; Bab 13 Tren Teknologi Masa Depan; Bab 14 Tugas Dan Presentasi Proyek Akhir Kelompok; 
+Sistematika Bab adalah Bab 1 Pendahuluan; Bab 2 Analisis Peran Strategis Sistem Informasi Dalam Organisasi; Bab 3 Identifikasi Jenis-jenis Sistem Dalam Organisasi; Bab 4 Identifikasi Sistem Untuk Manajemen Tingkat Menengah dan Atas; Bab 5 Infrastruktur Teknologi Informasi (Hardware dan Software); Bab 6 Dasar-dasar Manajemen Data dan Pengetahuan; Bab 7 Proses Pengembangan Sistem; Bab 8 Solusi Sistem Informasi Terintegrasi Perusahaan; Bab 9 Alat Bantu Untuk Pemodelan Sistem; Bab 10 Telekomunikasi dan Jaringan Dalam Bisnis; Bab 11 Isu Keamanan dan Kontrol Informasi; Bab 12 Implikasi Etika dan Sosial Teknologi Informasi; Bab 13 Tren Teknologi Masa Depan; Bab 14 Tugas dan Presentasi Proyek Akhir Kelompok; 
 Untuk memberikan pemahaman bagaimana implementasi SIM pada proyek, diberikan contoh lengkap pengerjaan proyek oleh salah satu kelompok mahasiswa, dapat dilihat pada Lampiran Tugas Proyek Mengembangkan SIM Layanan Publik Sederhana.
 
 Panduan Penggunaan:      
